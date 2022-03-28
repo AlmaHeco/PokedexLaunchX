@@ -1,0 +1,55 @@
+.pantallapkm_bg{
+    position: relative;
+    background-color: #c6d5eb;
+    width: 85%;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.boton_pantalla{
+    position: absolute;
+    background-color:  red;
+    border-radius: 100%;
+    border: solid 4px white;
+    height: 30px;
+    width: 30px;
+    margin: -49px 0px 8px 8px;    
+}
+
+.bocina_bg{
+    position:absolute;
+    background-color: #c6d5eb;
+    height: 60px;
+    width:30%;
+    border-top-left-radius: 80px 100px;
+    margin: -67px 0px 8px 280px;   
+    right: 0;
+}
+
+.bocina_spkr{
+    position: absolute;
+    background-color: black;
+    border-radius: 40px;
+    border-top-left-radius: 80px 100px;
+    width: 70%;
+    height: 5px;
+    margin: 10px 0px 0px 24px;
+}
+
+.led_central1{
+    position: absolute;
+    background-color: #2FF455;
+    border-radius: 40px;
+    width: 100px;
+    height: 20px;
+    margin: 590px 0px 0px 0px;
+}
+
+.led_central2{
+    position: absolute;
+    background-color: #f7c602;
+    border-radius: 40px;
+    width: 100px;
+    height: 20px;
+    margin: 640px 0px 0px 0px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="esteticos.css">
+    <!--<link rel="stylesheet" href="./poledex.css">-->
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1>
+
+    <div class="cuerpo">
+        <div class="contenedor33" style="padding-top: 4%;">
+            <div  class="transparencia">
+                <div class="separadortipos">
+                    <div class="transparencia">
+                        <img src="./imagenestipos/bug.png" id="bug" class="img_tipos">
+                        <img src="./imagenestipos/dark.png" id="dark" class="img_tipos">
+                        <img src="./imagenestipos/dragon.png" id="dragon" class="img_tipos">
+                        <img src="./imagenestipos/electric.png" id="electric" class="img_tipos">
+                    </div>  
+                </div>
+
+                <div class="separadortipos">
+                    <div class="transparencia">
+                        <img src="./imagenestipos/fairy.png" id="fairy" class="img_tipos">
+                        <img src="./imagenestipos/fighting.png" id="fighting" class="img_tipos">
+                        <img src="./imagenestipos/fire.png" id="fire" class="img_tipos">
+                        <img src="./imagenestipos/flying.png" id="flying" class="img_tipos">
+                    </div>  
+                </div>
+
+                <div class="separadortipos">
+                    <div class="transparencia">
+                        <img src="./imagenestipos/ghost.png" id="ghost" class="img_tipos">
+                        <img src="./imagenestipos/grass.png" id="grass" class="img_tipos">
+                        <img src="./imagenestipos/ground.png" id="ground" class="img_tipos">
+                        <img src="./imagenestipos/ice.png" id="ice" class="img_tipos">
+                    </div>   
+                </div>
+                
+                <div class="separadortipos">
+                    <div class="transparencia">
+                        <img src="./imagenestipos/normal.png"  id="normal" class="img_tipos">
+                        <img src="./imagenestipos/poison.png" id="poison" class="img_tipos">
+                        <img src="./imagenestipos/psychic.png" id="psychic" class="img_tipos">
+                        <img src="./imagenestipos/rock.png" id="rock" class="img_tipos">
+                    </div>   
+                </div>
+    
+                <div class="separadortipos">
+                    <div class="transparencia">
+                        <img src="./imagenestipos/steel.png" id="steel" class="img_tipos">
+                        <img src="./imagenestipos/water.png" id="water" class="img_tipos">
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor33" >
+            <div class="pantallapkm_bg">
+                <img src="./imagenestipos/imagenes.png" alt="Pokemon" id="pokeImg" width="100%" class="pantalla_pokemon">
+                <div class="boton_pantalla"> </div>
+                <div class="bocina_bg">
+                    <div class="bocina_spkr"></div>
+                    <div class="bocina_spkr" style="margin-top: 20px;"></div>
+                    <div class="bocina_spkr" style="margin-top: 30px;"></div>
+                </div>
+            </div>
+                <input type="text" placeholder="Nombre pokemon" id="pokeName" name="pokeName" class="nombrepokemon">
+                <button onclick= "fetchPokemon()" class="seleccionpokemon_btn">Go</button>
+                <div class="led_central1"></div>
+                <div class="led_central2"></div>
+        </div>
+
+        <div class="contenedor33">
+            <h2>Movimientos</h2>   
+            <div id="movimientos" class="movim"></div>
+            <h2>Habilidades</h2>
+            <p id="habilidades"></p>
+        </div>
+
+    </div>
+
+
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+    <footer>
+        <script src="./pokepi.js"></script>
+    </footer> 
+</body>
+
+</html>

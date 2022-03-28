@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    /*align-content: center;*/
+}
+
+
+
+
+.cuerpo{
+    display:flex;
+    margin: 0;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.contenedor33{
+    background-color: #5b7bb6;
+    position: relative;
+    display: flex;
+    align-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+    width:30%;
+    margin-left: 1%;
+    
+    /*border-color: bisque;
+    border-width: 3px;
+    border-style: solid;*/
+}
+
+.separadortipos{
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    align-content:center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    width:98%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*border-color: bisque;
+    border-width: 3px;
+    border-style: solid;*/
+}
+
+.transparencia{
+    background-color: transparent;
+}
+
+.img_tipos{
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    background-color: white;
+    border-radius: 5px;
+    /*filter:grayscale(100%);
+    /*border: solid 3px #025e91;*/
+    margin-left: 5px;
+}
+
+.nombrepokemon{
+    background-color: #6cd7e9;
+    text-align: center;
+    font-family: Consolas;
+    font-size: 25px;
+    font-weight: bolder ;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60%;
+}
+
+.seleccionpokemon_btn{
+    background-color: #6cd7e9;
+    height: 100px;
+    width: 100px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 28px;
+    border-radius: 100%;
+    /*color: ;*/
+    border: solid 3px white;
+    margin-bottom: 10px;
+    position: absolute;
+    margin: 575px 300px 0px 0px;
+}
+
+
+
+.movim{
+    background-color: white;
+    border: solid 5px #c6d5eb;
+    height: 400px;
+    width: 80%;
+    text-transform: capitalize;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    font-family: Consolas;
+}
+
+.pantalla_pokemon{
+    /*background-color: #00D7FC;*/
+    background-color: white;
+    width: 93%;
+    text-transform: capitalize;
+    border-radius: 15px;
+    border-bottom-left-radius: 220px 110px;
+    
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+
+h2{
+    background-color: #5b7bb6;
+}
+
+h1{
+    
+    margin-top: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+
+
